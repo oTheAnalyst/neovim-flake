@@ -128,6 +128,22 @@
         "type": "sourcehut"
       }
     },
+    "plugin-Rnvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1736698204,
+        "narHash": "sha256-AepvlYx6tmHt8HT0VihCi/hbt8rMYgWW9CmGMjTuY4o=",
+        "owner": "R-nvim",
+        "repo": "R.nvim",
+        "rev": "06b7e86badbdc7f627ee3c875cb22b3603817e0e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "R-nvim",
+        "repo": "R.nvim",
+        "type": "github"
+      }
+    },
     "plugin-bufdelete-nvim": {
       "flake": false,
       "locked": {
@@ -1087,6 +1103,7 @@
         "nil": "nil",
         "nixpkgs": "nixpkgs",
         "nmd": "nmd",
+        "plugin-Rnvim": "plugin-Rnvim",
         "plugin-bufdelete-nvim": "plugin-bufdelete-nvim",
         "plugin-catppuccin": "plugin-catppuccin",
         "plugin-ccls-nvim": "plugin-ccls-nvim",
